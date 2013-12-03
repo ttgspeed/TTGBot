@@ -65,3 +65,4 @@ rpm -ivh epel-release-6-8.noarch.rpm
 #install pip and praw
 yum -y install python-pip
 pip install praw
+pip install feedparser
