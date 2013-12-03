@@ -1,0 +1,1 @@
+Parses an RSS feed, and posts the latest topics to a subreddit. Lots of derpy and unneccessary code; TTG's RSS feed breaks most (all) RSS parsers.
