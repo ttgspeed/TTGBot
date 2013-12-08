@@ -60,7 +60,7 @@ def RSSPost():
         vari.last_post = last_post
     
 
-    Broadcast(BCType.Info, 'last story posted: '+str(last_post))
+    Broadcast(BCType.Info, 'Last story published by source: '+str(last_post)+', last story posted to Reddit: '+str(vari.last_post))
 
     for e in feed.entries:
         try:
